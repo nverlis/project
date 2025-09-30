@@ -9,24 +9,42 @@
 <img width="1445" height="762" alt="image" src="https://github.com/user-attachments/assets/d606233b-08b0-408f-88e4-371fedb04f92" />
 <img width="1365" height="54" alt="image" src="https://github.com/user-attachments/assets/426d8680-7fa4-4099-b685-ede80b99d9c8" />
 
-Типы данных до изменения: Unnamed: 0                 object
+Типы данных до изменения:
+
 id                         object
+
 title                      object
+
 common_name                object
+
 description                object
+
 cas                        object
+
 pubchem_id                 object
+
 chemical_formula           object
+
 weight                     object
+
 appearance                 object
+
 melting_point              object
+
 boiling_point              object
+
 solubility                 object
+
 route_of_exposure          object
+
 mechanism_of_toxicity      object
+
 metabolism                 object
+
 toxicity                   object
+
 lethaldose                 object
+
 carcinogenicity            object
 use_source                 object
 min_risk_level             object
@@ -68,7 +86,8 @@ cellular_locations         object
 tissues                    object
 pathways                   object
 dtype: object
-Типы данных после изменения: id                                      object
+Типы данных после изменения: 
+id                                      object
 title                                   object
 common_name                             object
 description                             object
@@ -126,3 +145,4 @@ cellular_locations                      object
 tissues                                 object
 pathways                                object
 dtype: object
+
