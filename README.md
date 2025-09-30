@@ -46,103 +46,200 @@ toxicity                   object
 lethaldose                 object
 
 carcinogenicity            object
+
 use_source                 object
+
 min_risk_level             object
+
 health_effects             object
+
 symptoms                   object
+
 treatment                  object
+
 created_at                 object
+
 updated_at                 object
+
 wikipedia                  object
+
 uniprot_id                 object
+
 kegg_compound_id           object
+
 omim_id                    object
+
 chebi_id                   object
+
 biocyc_id                  object
+
 ctd_id                     object
+
 stitch_id                  object
+
 drugbank_id                object
+
 pdb_id                     object
+
 actor_id                   object
+
 export                     object
+
 moldb_smiles               object
+
 moldb_formula              object
+
 moldb_inchi                object
+
 moldb_inchikey             object
+
 moldb_average_mass         object
+
 moldb_mono_mass            object
+
 origin                     object
+
 state                      object
+
 logp                       object
+
 hmdb_id                    object
+
 chembl_id                  object
+
 chemspider_id              object
+
 biodb_id                   object
+
 synthesis_reference        object
+
 structure_image_caption    object
+
 synonyms_list              object
+
 types                      object
+
 cellular_locations         object
+
 tissues                    object
+
 pathways                   object
-dtype: object
+
 Типы данных после изменения: 
+
 id                                      object
+
 title                                   object
+
 common_name                             object
+
 description                             object
+
 cas                                     object
+
 pubchem_id                              object
+
 chemical_formula                        object
+
 weight                                 float64
+
 appearance                              object
+
 melting_point                           object
+
 boiling_point                           object
+
 solubility                              object
+
 route_of_exposure                       object
+
 mechanism_of_toxicity                   object
+
 metabolism                              object
+
 toxicity                                object
+
 lethaldose                              object
+
 carcinogenicity                       category
+
 use_source                              object
+
 min_risk_level                          object
+
 health_effects                          object
+
 symptoms                                object
+
 treatment                               object
+
 created_at                 datetime64[ns, UTC]
+
 updated_at                 datetime64[ns, UTC]
+
 wikipedia                               object
+
 uniprot_id                              object
+
 kegg_compound_id                        object
+
 omim_id                                 object
+
 chebi_id                                object
+
 biocyc_id                               object
+
 ctd_id                                  object
+
 stitch_id                               object
+
 drugbank_id                             object
+
 pdb_id                                  object
+
 actor_id                                object
+
 export                                category
+
 moldb_smiles                            object
+
 moldb_formula                           object
+
 moldb_inchi                             object
+
 moldb_inchikey                          object
+
 moldb_average_mass                     float64
+
 moldb_mono_mass                        float64
+
 origin                                category
+
 state                                 category
+
 logp                                   float64
+
 hmdb_id                                 object
+
 chembl_id                               object
+
 chemspider_id                           object
+
 biodb_id                                object
+
 synthesis_reference                     object
+
 structure_image_caption                 object
+
 synonyms_list                           object
+
 types                                   object
+
 cellular_locations                      object
+
 tissues                                 object
+
 pathways                                object
-dtype: object
+
+
 
