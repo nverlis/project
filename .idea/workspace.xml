@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="174ac253-27c8-45d2-9929-d17232c79ed4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api_example.github/api_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_example/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/DNS/Desktop/my_project",
     "node.js.detected.package.eslint": "true",
@@ -69,7 +66,7 @@
       <updated>1759313457435</updated>
       <workItem from="1759313459090" duration="25000" />
       <workItem from="1759433553570" duration="4000" />
-      <workItem from="1759848338206" duration="4373000" />
+      <workItem from="1759848338206" duration="5785000" />
     </task>
     <servers />
   </component>
