@@ -22,3 +22,10 @@ df[text] = df[text].astype(str)
 
 print('Типы данных после изменения:', df.dtypes)
 
+print(df.shape)
+duplicate_rows_df = df[df.duplicated()]
+print("number of duplicate rows: ", duplicate_rows_df.shape)
+df = df.drop_duplicates()
+print(df.shape)
+print(df.isnull().sum())
+
