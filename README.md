@@ -5,3 +5,4 @@
 
 Ссылка на исследуемые данные https://drive.google.com/drive/folders/1uQXClyqUj3JKq66xT7y42HuikdYCU6xi?usp=sharing 
 
+Ссылка на ноутбук с EDA-анализом и визуализацией: https://nbviewer.org/github/nverlis/project/blob/master/notebooks/EDA.ipynb
