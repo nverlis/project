@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+from pathlib import Path
 
 def extract_number(value: str) -> float | None:
     if pd.isna(value):
@@ -13,6 +14,7 @@ def extract_number(value: str) -> float | None:
         return sum(nums) / len(nums)
     return float(numbers[0])
 
+
 def clean_route(value):
     if pd.isna(value):
         return None
@@ -20,6 +22,7 @@ def clean_route(value):
     cleaned = re.sub(r"[\.;]", ",", cleaned)
     cleaned = re.sub(r"\s+", " ", cleaned).strip()
     return cleaned.lower()
+
 
 def normalize_carcinogenicity(value):
     if pd.isna(value):
@@ -32,6 +35,7 @@ def normalize_carcinogenicity(value):
     if re.search(r"\b(3|not classifiable|no indication|non|not carcinogenic)\b", s):
         return "non-carcinogenic"
     return "uncertain"
+
 
 def transform(df: pd.DataFrame) -> pd.DataFrame:
     for col in ["melting_point", "boiling_point"]:
@@ -65,3 +69,17 @@ def transform(df: pd.DataFrame) -> pd.DataFrame:
 
     print("Данные успешно преобразованы")
     return df
+
+
+def transform_data(input_path: str, output_dir: str = "data/processed", filename: str = "dataset_clean.parquet") -> str:
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
+
+    df = pd.read_csv(input_path)
+    df_transformed = transform(df)
+
+    output_path = Path(output_dir) / filename
+    df_transformed.to_parquet(output_path, index=False)
+    print(f"Преобразованные данные сохранены в: {output_path}")
+
+    return str(output_path)
+
