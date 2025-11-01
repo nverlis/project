@@ -36,4 +36,4 @@
 *По ссылке доступна интерактивная версия ноутбука с EDA-анализом:* [Открыть EDA.ipynb через nbviewer.org](https://nbviewer.org/github/nverlis/project/blob/master/notebooks/EDA.ipynb)
 
 ** Спасибо за интерес к моему проекту!** 
-![img_1.png](img_1.png)
+![img_2.png](img_2.png)
