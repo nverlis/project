@@ -20,7 +20,7 @@ engine = create_engine(
 
 session_homeworks = Session(bind=engine)
 
-df = pd.read_parquet(r"C:\Users\DNS\Desktop\my_project\converted_data.parquet")
+df = pd.read_parquet(r"/converted_data.parquet")
 
 df.to_sql(
     name="vibe",
